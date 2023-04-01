@@ -1,0 +1,20 @@
+.icon{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    margin: 10px;
+    width: 40px;
+}
+
+.icon:hover {
+    width: 44px;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.recipe_title{
+    color: black;
+    text-decoration: underline;
+    font-size: 250%;
+    margin: 5px;
+}

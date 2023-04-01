@@ -1,0 +1,13 @@
+.title{
+    margin: 10px 20px;
+    margin-bottom: -10px;
+    text-decoration: underline;
+    color: black;
+    text-align: center;
+    font-size: 300%;
+}
+
+.recipeContainer{
+    width: 1000px;
+    display: flex;
+}
