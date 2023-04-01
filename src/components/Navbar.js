@@ -27,9 +27,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="navbar">
-        <div className="topbar">
-          <h1>Seasonal Pickings</h1>
-          <h3>Educating Bath's children to love locally-sourced foods</h3>
+        <div className="newTop">
+          <div className="topbar">
+            <h1>Seasonal Pickings</h1>
+            <h3>Educating Bath's children to love locally-sourced foods</h3>
+          </div>
+          <img className="logo" src="/images/logo.png"></img>
         </div>
         <div className="allLinks">
           <Link className={gameSelected} onClick={selectGame} to="/">

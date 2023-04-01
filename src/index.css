@@ -70,5 +70,16 @@
 }
 
 .topbar {
-  width: 100%;
+  width: 700px;
+  margin-left: 150px;
+  margin-right: 50px;
+}
+
+.logo{
+  width: 100px;
+  height: 100px;
+}
+
+.newTop{
+  display: flex;
 }

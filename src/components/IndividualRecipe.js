@@ -28,16 +28,28 @@ const IndividualRecipe = ({ recipe }) => {
             <div>
               <h1 className="recipe_title">{filteredRecipe.recipe_name}</h1>
               <h3 className="recipe_desc">{filteredRecipe.description}</h3>
-              <img src={filteredRecipe.recipe_url}></img>
-              <div>
-                {filteredRecipe.ingredients_all.map((ingredient) => (
-                  <li>{ingredient}</li>
-                ))}
-              </div>
-              <div>
-                {filteredRecipe.method.map((step) => (
-                  <li>{step}</li>
-                ))}
+              <div className="both_sides">
+                <div className="left_side">
+                  <div>
+                    {filteredRecipe.method.map((step) => (
+                      <li>{step}</li>
+                    ))}
+                  </div>
+                </div>
+                <div className="right_side">
+                  <div className="img_container">
+                    <img
+                      className="recipe_img"
+                      src={filteredRecipe.recipe_url}
+                    ></img>
+                  </div>
+                  <h3 className="ingredients_title">Ingredients</h3>
+                  <div className="ingredients">
+                    {filteredRecipe.ingredients_all.map((ingredient) => (
+                      <li>{ingredient}</li>
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
           ))}

@@ -18,3 +18,60 @@
     font-size: 250%;
     margin: 5px;
 }
+
+.recipe_desc{
+    color: black;
+}
+
+.recipe_img {
+    width: 200px;
+    border: 2px solid black;
+    margin: 15px 95px 25px 25px;
+    float: right;
+    border-radius: 15px;
+}
+
+.both_sides{
+    display: flex;
+}
+
+.left_side{
+    width: 600px;
+    margin: 20px;
+}
+
+.right_side{
+    display:block;
+    width: 400px;
+}
+
+.img_container{
+    width: 400px;
+    height: 230px;
+}
+
+.ingredients{
+    height: 200px;
+    max-height: 200px;
+    overflow-y:scroll;
+    margin-right: 10px;
+    
+}
+
+.ingredients li{
+    margin-left: 80px;
+    color:black;
+}
+
+.ingredients_title{
+    text-align: left;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    font-size: 150%;
+    text-decoration: underline;
+    color:black;
+}
+
+li{
+    text-align: left;
+}
