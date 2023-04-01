@@ -21,12 +21,14 @@
 
 .recipe_desc{
     color: black;
+    width: 800px;
+    margin-left: 100px;
 }
 
 .recipe_img {
     width: 200px;
     border: 2px solid black;
-    margin: 15px 95px 25px 25px;
+    margin: 15px 70px 25px 25px;
     float: right;
     border-radius: 15px;
 }
@@ -74,4 +76,19 @@
 
 li{
     text-align: left;
+}
+
+.method_title{
+    color:black;
+    text-align: left;
+    font-size: 150%;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-left: 25px;
+}
+
+.method_steps li{
+    color: black;
+    display:list-item;
+    margin-bottom: 10px; 
 }
