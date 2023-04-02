@@ -65,3 +65,54 @@
     top: 298px;
     left: 491px;
 }
+
+.penhill_p p{
+    display: none;
+}
+
+.penhill_p:hover p{
+    display: block;
+    position: absolute;
+    top:232px;
+    left:400px;
+    color:black;
+    font-size: 120%;
+    background-color: white;
+    border-radius: 9px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.city_farm_p p{
+    display: none;
+}
+
+.city_farm_p:hover p{
+    display: block;
+    position: absolute;
+    top:395px;
+    left:438px;
+    color:black;
+    font-size: 120%;
+    background-color: white;
+    border-radius: 9px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.organic_p p{
+    display: none;
+}
+
+.organic_p:hover p{
+    display: block;
+    position: absolute;
+    top:310px;
+    left:550px;
+    color:black;
+    font-size: 120%;
+    background-color: white;
+    border-radius: 9px;
+    padding: 3px;
+    font-weight: bold;
+}

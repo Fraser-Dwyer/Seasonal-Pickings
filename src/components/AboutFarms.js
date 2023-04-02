@@ -21,21 +21,30 @@ const AboutFarms = () => {
         vendors!
       </p>
       <img className="map" src="/images/map.png"></img>
-      <img
-        onClick={() => handleClick("/penhill-produce")}
-        className="farm_icon_penhill"
-        src="/images/logo.png"
-      ></img>
-      <img
-        onClick={() => handleClick("/bath-city-farm")}
-        className="farm_icon_bath_city_farm"
-        src="/images/logo.png"
-      ></img>
-      <img
-        onClick={() => handleClick("/bath-organic-group")}
-        className="farm_icon_bath_organic_group"
-        src="/images/logo.png"
-      ></img>
+      <div className="penhill_p">
+        <img
+          onClick={() => handleClick("/penhill-produce")}
+          className="farm_icon_penhill"
+          src="/images/logo.png"
+        ></img>
+        <p>Penhill Produce</p>
+      </div>
+      <div className="city_farm_p">
+        <img
+          onClick={() => handleClick("/bath-city-farm")}
+          className="farm_icon_bath_city_farm"
+          src="/images/logo.png"
+        ></img>
+        <p>Bath City Farm</p>
+      </div>
+      <div className="organic_p">
+        <img
+          onClick={() => handleClick("/bath-organic-group")}
+          className="farm_icon_bath_organic_group"
+          src="/images/logo.png"
+        ></img>
+        <p>Bath Organic Group</p>
+      </div>
     </div>
   );
 };
