@@ -1,0 +1,48 @@
+.main_one{
+    height: 525px;
+    max-height: 525px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 0px;
+}
+
+.main_title{
+    color: black;
+    text-decoration: underline;
+    font-size: 250%;
+    margin: 10px 20px;
+}
+
+.review_container{
+    width: 800px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    margin: 20px 100px;
+    padding: 10px;
+}
+
+.review_top_box{
+    display: flex;
+}
+
+.review_top_box p{
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.review_star{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.review_title{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.review_body{
+    text-align: left;
+}

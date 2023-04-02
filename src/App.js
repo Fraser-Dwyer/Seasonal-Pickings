@@ -6,6 +6,7 @@ import Recipes from "./components/Recipes";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import IndividualRecipe from "./components/IndividualRecipe";
 import IndividualFarm from "./components/IndividualFarm";
+import ReviewPage from "./components/ReviewPage";
 
 function App() {
   return (
@@ -49,6 +50,42 @@ function App() {
               element={<IndividualFarm farm="bath-organic-group" />}
             />
             <Route path="/local-vendors" element={<AboutFarms />} />
+            <Route
+              path="/review-page/spinach-lemon-risotto"
+              element={
+                <ReviewPage
+                  recipeName={"/spinach-lemon-risotto"}
+                  theDish="Spinach Lemon Risotto"
+                />
+              }
+            />
+            <Route
+              path="/review-page/vegetable-soup"
+              element={
+                <ReviewPage
+                  recipeName={"/vegetable-soup"}
+                  theDish="Vegetable Soup"
+                />
+              }
+            />
+            <Route
+              path="/review-page/lentil-salad"
+              element={
+                <ReviewPage
+                  recipeName={"/lentil-salad"}
+                  theDish="Lentil Salad"
+                />
+              }
+            />
+            <Route
+              path="/review-page/veggie-pasta"
+              element={
+                <ReviewPage
+                  recipeName={"/veggie-pasta"}
+                  theDish="Veggie Pasta"
+                />
+              }
+            />
           </Routes>
         </div>
       </div>

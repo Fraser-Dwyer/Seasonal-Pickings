@@ -38,17 +38,37 @@
 }
 
 .left_side{
-    width: 600px;
+    width: 650px;
     margin: 20px;
 }
 
+.left_side button{
+    color:white;
+    background-color: green;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.left_side button:hover{
+    cursor: pointer;
+    width: 204px;
+    height: 54px;
+    margin:18px;
+}
+
+
 .right_side{
     display:block;
-    width: 400px;
+    width: 350px;
 }
 
 .img_container{
-    width: 400px;
+    width: 330px;
     height: 230px;
 }
 
@@ -61,13 +81,13 @@
 }
 
 .ingredients li{
-    margin-left: 80px;
+    margin-left: 60px;
     color:black;
 }
 
 .ingredients_title{
     text-align: left;
-    margin-left: 80px;
+    margin-left: 60px;
     margin-bottom: 10px;
     font-size: 150%;
     text-decoration: underline;
@@ -88,8 +108,8 @@ li{
 }
 
 .method_steps{
-    height: 380px;
-    max-height: 380px;
+    height: 300px;
+    max-height: 300px;
     overflow: auto;
     padding: 10px;
 }
