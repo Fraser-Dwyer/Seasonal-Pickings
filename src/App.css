@@ -2,5 +2,5 @@
   text-align: center;
   background-image: url("../public/images/sun-tornado4.png");
   height: 1000px;
-  overflow: hidden;
+  overflow-y: hidden;
 }

@@ -52,7 +52,8 @@ const Recipes = () => {
               recipeURL={recipe.recipe_url}
               recipeDesc={recipe.description}
               handleClick={() => handleClick(recipe.url_suffix)}
-              id={recipe.id}
+              numberOfRatings={recipe.numberOfRatings}
+              numberOfStars={recipe.numberOfStars}
             />
           ))}
         <p className="end" ref={ref1}>

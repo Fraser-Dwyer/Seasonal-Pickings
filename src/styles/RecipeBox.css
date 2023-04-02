@@ -54,6 +54,10 @@
     opacity: 20%;
 }
 
+.recipeBox:hover h4{
+    opacity: 20%;
+}
+
 .recipeImage{
     border-radius: 15px;
     width: 200px;
@@ -68,4 +72,25 @@
     display: inline-block;
     height: 100%;
     vertical-align: middle;
+    transform: translate(0px, -20px);
+}
+
+.reviews{
+    transform: translate(0px, -600px);
+}
+
+
+.sides{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.reviews h4{
+    color: black;
+}
+
+.star{
+    width: 20px;
+    margin-left: 5px;
 }
