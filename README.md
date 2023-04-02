@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Seasonal Pickings!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="logo.png" width="150"/>
 
-## Available Scripts
+"Seasonal Pickings" is a web-application that aims to promote healthy eating habits and the use of locally-sourced food. Locally-sourced food supports local farmers, reduces carbon footprint, and provides more nutritious options for consumers. The app includes a game that challenges children to identify and locate seasonal produce for recipes, with real recipes provided for parents to use. It also showcases local sellers of locally sourced food, making it easier for families to make sustainable decisions. We believe the app has the potential to make a difference in promoting healthy eating habits and supporting local businesses
 
-In the project directory, you can run:
+This is a screenshot from our web-application showing a selection of seasonal recipes which can be sourced locally. The web-app also can show you the steps and a full list of ingredients to make a selection of seasonal recipes. These recipes can also be reviewed on the web-app and you can see other peoples' ratings and reviews of dishes that you are wanting to try!
 
-### `npm start`
+<img src="Screenshot 2023-04-02 112510.png" width="450"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This screenshot shows the game, aimed towards educating children about locally sourcing healthy and declicious foods, being played in our web-app. The aim of the game is to explore the local area, venturing to different farms and markets to source the ingredients for a recipe of your choosing!
 
-### `npm test`
+<img src="Screenshot 2023-04-02 112628.png" width="450"/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## How to run
+1. Clone or download this repository
+2. Open the repository in a code editor
+3. Install all the dependencies using "npm i"
+4. Start the project using "npm start"
+5. Start the back-end server by using command ""npx json-server --watch data/db.json --port 8000""
+6. Enjoy the app!
