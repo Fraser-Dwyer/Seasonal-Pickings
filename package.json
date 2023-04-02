@@ -2,9 +2,7 @@
   "name": "hackathon-project",
   "version": "0.1.0",
   "private": true,
-  "homepage":{
-  "http://helen2000.github.io/hackathon-project"
-  },
+  "homepage":"http://helen2000.github.io",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
