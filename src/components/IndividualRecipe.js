@@ -38,7 +38,13 @@ const IndividualRecipe = ({ recipe }) => {
                       ))}
                     </ul>
                   </div>
-                  <button>Review Recipe</button>
+                  <button
+                    onClick={() => {
+                      navigate("/review-page/write-review");
+                    }}
+                  >
+                    Review Recipe
+                  </button>
                   <button
                     onClick={() => {
                       const url = "/review-page" + recipe;

@@ -1,0 +1,73 @@
+{
+  "local_vendors": [
+    {
+      "id": 1,
+      "vendor_name": "Penn Hill Produce",
+      "vendor_description": "A family-owned local food supplier, with a 5-acre farm just two miles from Bath City centre. The farm shop offers high quality products at competitive prices.",
+      "vendor_products": ["carrots", "leek", "lentils", "spring greens"],
+      "vendor_address": "Bath Penn Hill Farm Shop, Bicknam, Penn Hill Road, Bath BA1 3RX",
+      "vendor_url": "www.penn-hill.com"
+    },
+    {
+      "id": 2,
+      "vendor_name": "Bath Organic Group",
+      "vendor_description": "A local farm shop, started in 1986. For over 20 years, they have sold organic produce grown by members and in the community garden at Bath Farmers Market on the first Saturday of the month from April to December.",
+      "vendor_products": [
+        "apple",
+        "potatoe",
+        "carrots",
+        "leek"
+      ],
+      "vendor_address": "Lower Common West Allotments, Bath, BA1 3AW",
+      "vendor_url": "http://bathorganicgroup.org.uk"
+    },
+    {
+      "id": 3,
+      "vendor_name": "Bath City Farm",
+      "vendor_description": "An inclusive farm and farm shop that prioritises value, affordability, quality, and protecting the natural environment. They will soon sell their own line of fresh produce alongside other local suppliers' products",
+      "vendor_products": ["pear", "tomatoes", "asparagus", "watercress"],
+      "vendor_address": "Kelston View, Whiteway, Bath BA2 1NW",
+      "vendor_url": "www.bathcityfarm.org.uk"
+    },
+	{
+	"id": 4,
+      "vendor_name": "People's Farm",
+      "vendor_description": "A family-owned local food supplier, with a 5-acre farm just two miles from Bath City centre. The farm shop offers high quality products at competitive prices.",
+      "vendor_products": ["potatoe", "potatoe", "potatoe", "potatoe"],
+      "vendor_address": "Bath Penn Hill Farm Shop, Bicknam, Penn Hill Road, Bath BA1 3RX",
+      "vendor_url": "www.penn-hill.com"
+    },
+	{
+	"id": 5,
+      "vendor_name": "Grassy Farm",
+      "vendor_description": "A family-owned local food supplier, with a 5-acre farm just two miles from Bath City centre. The farm shop offers high quality products at competitive prices.",
+      "vendor_products": ["cauliflower", "broccoli", "pepper", "apple"],
+      "vendor_address": "Bath Penn Hill Farm Shop, Bicknam, Penn Hill Road, Bath BA1 3RX",
+      "vendor_url": "www.penn-hill.com"
+    },
+	{
+	"id": 6,
+      "vendor_name": "Stardew Valley Farm",
+      "vendor_description": "A family-owned local food supplier, with a 5-acre farm just two miles from Bath City centre. The farm shop offers high quality products at competitive prices.",
+      "vendor_products": ["green beans", "pear", "lemon", "leek"],
+      "vendor_address": "Bath Penn Hill Farm Shop, Bicknam, Penn Hill Road, Bath BA1 3RX",
+      "vendor_url": "www.penn-hill.com"
+    },
+	{
+	"id": 7,
+      "vendor_name": "Animal Farm",
+      "vendor_description": "A family-owned local food supplier, with a 5-acre farm just two miles from Bath City centre. The farm shop offers high quality products at competitive prices.",
+      "vendor_products": ["apple", "pepper", "tomatoe", "carrot"],
+      "vendor_address": "Bath Penn Hill Farm Shop, Bicknam, Penn Hill Road, Bath BA1 3RX",
+      "vendor_url": "www.penn-hill.com"
+    },
+	{
+	"id": 8,
+      "vendor_name": "Farmy Farm",
+      "vendor_description": "A family-owned local food supplier, with a 5-acre farm just two miles from Bath City centre. The farm shop offers high quality products at competitive prices.",
+      "vendor_products": ["carrot", "potatoe", "garlic", "onion"],
+      "vendor_address": "Bath Penn Hill Farm Shop, Bicknam, Penn Hill Road, Bath BA1 3RX",
+      "vendor_url": "www.penn-hill.com"
+    }
+  ]
+}

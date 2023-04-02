@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import IndividualRecipe from "./components/IndividualRecipe";
 import IndividualFarm from "./components/IndividualFarm";
 import ReviewPage from "./components/ReviewPage";
+import WriteReview from "./components/WriteReview";
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
                 />
               }
             />
+            <Route path="/review-page/write-review" element={<WriteReview />} />
           </Routes>
         </div>
       </div>

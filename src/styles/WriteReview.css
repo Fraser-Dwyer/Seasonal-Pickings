@@ -1,0 +1,77 @@
+.review {
+    max-width: 400px;
+    margin: 10px auto auto auto;
+    text-align: center;
+    color:black;
+}
+
+.review h1{
+    color: black;
+    text-decoration: underline;
+    font-size: 250%;
+    margin: 10px 20px;
+}
+
+.review_title{
+    display: inline-block;
+    margin-top: 0px;
+    width: 400px;
+}
+
+.review_title h2{
+    color: #000;
+}
+
+.review_title input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: block;
+}
+
+.review_title select{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: block;
+}
+
+.review_title textarea{
+    width: 100%;
+    height: 100px;
+    padding: 6px 10px;
+    margin: 10px 0px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    display: block;
+}
+
+.submit{
+    width: 100%;
+    display: flex;
+}
+
+.submit button{
+    float: right;
+    width: 100px;
+    height: 50px;
+    color:white;
+    background-color: rgb(109, 109, 109);
+    border: 2px solid black;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: bold;
+    transform: translate(300px, 0px);
+    margin: 1px;
+}
+
+.submit button:hover{
+    cursor: pointer;
+    margin: 0px;
+    width: 102px;
+    height: 52px;
+}
