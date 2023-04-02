@@ -1,0 +1,67 @@
+.map{
+    width: 760px;
+    height: 460px;
+    border: 2px black solid;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.explain{
+    color:black;
+    font-size: 125%;
+}
+
+.farms_title{
+    color: black;
+    text-decoration: underline;
+    font-size: 250%;
+    margin: 10px 20px;
+}
+
+.farm_icon_penhill{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 222px;
+    left: 340px;
+}
+
+.farm_icon_penhill:hover{
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+    top: 220px;
+    left: 338px;
+}
+
+.farm_icon_bath_city_farm{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 385px;
+    left: 380px;
+}
+
+.farm_icon_bath_city_farm:hover{
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+    top: 383px;
+    left: 378px;
+}
+
+.farm_icon_bath_organic_group{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 300px;
+    left: 493px;
+}
+
+.farm_icon_bath_organic_group:hover{
+    cursor: pointer;
+    width: 54px;
+    height: 54px;
+    top: 298px;
+    left: 491px;
+}

@@ -1,0 +1,63 @@
+.vendor_image{
+    width: 400px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.vendor_title{
+    color: black;
+    text-decoration: underline;
+    font-size: 250%;
+    margin: 10px 20px;
+}
+
+.vendor_desc{
+    color:black;
+    width: 800px;
+    margin-left:100px;
+    font-size: 130%;
+}
+
+.main_div{
+    display: flex;
+    margin-top: 35px;
+    width: 1000px;
+    height: 430px;
+    font-size: 125%;
+}
+
+.left_div{
+    width: 350px;
+    padding: 0px 25px;
+    color:black;
+    
+}
+
+.left_div p{
+    text-align: left;
+    color:black;
+}
+
+.left_div li{
+    color: black;
+}
+
+.left_div ul{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.right_div{
+    width: 620px;
+    margin-right: 30px;
+}
+
+.right_div p{
+    color: black;
+}
+
+.link{
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}

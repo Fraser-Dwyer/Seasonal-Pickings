@@ -16,7 +16,7 @@
     color: black;
     text-decoration: underline;
     font-size: 250%;
-    margin: 5px;
+    margin: 10px 20px;
 }
 
 .recipe_desc{
@@ -53,9 +53,9 @@
 }
 
 .ingredients{
-    height: 200px;
-    max-height: 200px;
-    overflow-y:scroll;
+    height: 190px;
+    max-height: 190px;
+    overflow-y:auto;
     margin-right: 10px;
     
 }

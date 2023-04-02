@@ -30,7 +30,7 @@ const IndividualRecipe = ({ recipe }) => {
               <h3 className="recipe_desc">{filteredRecipe.description}</h3>
               <div className="both_sides">
                 <div className="left_side">
-                  <h3 className="method_title">Method</h3>
+                  <h3 className="method_title">Method - (Serves 4)</h3>
                   <div className="method_steps">
                     <ul>
                       {filteredRecipe.method.map((step) => (

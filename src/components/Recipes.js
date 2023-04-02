@@ -13,7 +13,8 @@ const Recipes = () => {
   } = useFetch("http://localhost:8000/recipes");
 
   const handleClick = (url_suffix) => {
-    navigate(url_suffix);
+    const url = "/recipes" + url_suffix;
+    navigate(url);
   };
 
   return (
