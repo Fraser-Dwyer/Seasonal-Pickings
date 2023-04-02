@@ -1,0 +1,90 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "season": "Spring",
+      "recipe_name": "Vegetable Soup",
+      "recipe_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1259671_8-01ae0e6.jpg?quality=90&webp=true&resize=300,272",
+      "description": "A satisfying spring vegetable soup with basil pesto",
+      "serves": 2,
+      "ingredients_all": [
+        "1x tbsp olive oil",
+        "2x leeks",
+        "100g green beans",
+        "1x courgette",
+        "1.2L vegetable stock",
+        "3x vine-ripe tomatoes",
+        "400g cannellini beans",
+        "1x nest vermicelli",
+        "25g basil",
+        "1x garlic clove",
+        "25g pistachio nuts",
+        "25g parmesan",
+        "2x tbsp olive oil"
+      ],
+      "ingredients_game": ["leek", "courgettes", "green beans", "tomatoes"],
+      "method": [
+        "STEP 1: Heat the oil, then fry the leek until softened. Add the green beans and courgette, then pour in the stock and season to taste. Cover and simmer for 5 mins.",
+        "STEP 2: Meanwhile, make the pesto: put the basil, garlic, nuts, Parmesan, oil and ½ tsp salt in a food processor, then blitz until smooth.",
+        "STEP 3: Stir the tomatoes, cannellini beans and vermicelli into the soup pan, then simmer for 5 mins more until the veg are just tender. The soup and pesto can now be chilled for up to a day.",
+        "STEP 4: Reheat the soup, if necessary, then stir in half the pesto. Ladle into bowls and serve with the rest of the pesto spooned on top. Eat with chunks of crusty bread."
+      ]
+    },
+    {
+      "id": 2,
+      "season": "Spring",
+      "recipe_name": "Lentil Salad",
+      "recipe_url": "https://images.immediate.co.uk/production/volatile/sites/30/2023/02/Lentils-with-spring-greens-and-watercress-walnut-pesto-cc02ca9.jpg?quality=90&webp=true&resize=300,272",
+      "description": "Make a flavourful veggie main of lentils with spring greens and a watercress walnut pesto. It is a healthy supper, delivering four of your 5-a-day",
+      "ingredients_all": [
+        "300g green lentils",
+        "2x tbsp olive oil",
+        "2x carrots",
+        "4x banana shallots",
+        "1x vegetable stock cube",
+        "100g tomato purée",
+        "300g spring greens",
+        "150g watercress",
+        "150g walnuts",
+        "50g vegetarian hard cheese",
+        "150g extra virgin olive oil",
+        "1-2x lemons"
+      ],
+      "ingredients_game": [
+        "lentils",
+        "carrots",
+        "spring greens",
+        "watercress",
+        "lemon"
+      ],
+      "method": [
+        "STEP 1: Make the pesto by combining all the ingredients in a blender or food processor and pulsing until a course sauce is formed. This is more than you may need. Will keep covered in the fridge beneath a thin layer of olive oil for up to a week.",
+        "STEP 2: Put the lentils in a medium saucepan and cover with water. Bring to the boil over a medium heat and cook for 20 mins until almost tender.",
+        "STEP 3: Meanwhile, heat the olive oil in a saucepan over a medium-low heat and cook the carrots and shallots for 15-20 mins until they’re starting to caramelise and soften. Drain the lentils and add to the carrots and shallots. Crumble in the stock cube. Add the tomato purée, give everything a good stir and pour in 500ml water.",
+        "STEP 4: Once bubbling, cook for 10 mins or until tender and saucy. (Top up with water as needed.) Stir through the spring greens to wilt for 2-3 mins (you will still want some texture). Serve with the pesto."
+      ]
+    },
+    {
+      "id": 3,
+      "season": "Spring",
+      "recipe_name": "Veggie Pasta",
+      "recipe_url": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-259451_10-7cda2db.jpg?quality=90&webp=true&resize=300,272",
+      "description": "Put some spring into your pasta, with this fresh yet simple supper idea. It's on the table in under half an hour and is low-fat too!",
+      "ingredients_all": [
+        "450g of mixed vegetables: green beans, asparagus, broad beans",
+        "400g tagliatelle",
+        "1x lemon",
+        "1x tbsp Dijon mustard",
+        "1x tbsp olive oil",
+        "3x tbsp snipped chives",
+        "grated parmesan"
+      ],
+      "ingredients_game": ["green beans", "asparagus", "broad beans", "lemon"],
+      "method": [
+        "STEP 1: Halve the green beans and cut the asparagus into 3 pieces on the diagonal. Cook the tagliatelle, adding the vegetables for the final 5 mins of the cooking time.",
+        "STEP 2: Meanwhile, grate the zest from half the lemon and squeeze the juice from the whole lemon. Put juice in a small pan with the mustard, olive oil and a little black pepper. Warm through until smooth.",
+        "STEP 3: Drain the pasta and veg, adding 4 tbsp of the water to the lemon sauce. Return the pasta to the pan, reheat the sauce, adding most of the chives, then add to the pasta, tossing everything together well. Divide between 4 shallow bowls and top each with black pepper, Parmesan and the remaining chives."
+      ]
+    }
+  ]
+}

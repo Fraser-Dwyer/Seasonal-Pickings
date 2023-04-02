@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.288a62ac.css",
+    "main.js": "/static/js/main.acfce48f.js",
+    "static/media/sun-tornado4.png": "/static/media/sun-tornado4.b8bab0ea504e014d6292.png",
+    "index.html": "/index.html",
+    "main.288a62ac.css.map": "/static/css/main.288a62ac.css.map",
+    "main.acfce48f.js.map": "/static/js/main.acfce48f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.288a62ac.css",
+    "static/js/main.acfce48f.js"
+  ]
+}
