@@ -2,6 +2,7 @@
     text-align: center;
     color:black;
     margin: 25px;
+    height: 40px;
 }
 
 .recipeBox{
@@ -9,10 +10,11 @@
     height:400px;
     border-radius: 15px;
     border: 2px solid black;
-    margin: 60px 25px;
+    margin: 60px 15px;
     background-color: rgb(0, 126, 6);
     transition: all 0.5s;
 }
+
 
 .recipeBox:hover {
     cursor: pointer;

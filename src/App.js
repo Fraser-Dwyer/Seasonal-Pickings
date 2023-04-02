@@ -26,6 +26,10 @@ function App() {
               element={<IndividualRecipe recipe="/lentil-salad" />}
             />
             <Route
+              path="recipes/spinach-lemon-risotto"
+              element={<IndividualRecipe recipe="/spinach-lemon-risotto" />}
+            />
+            <Route
               path="recipes/veggie-pasta"
               element={<IndividualRecipe recipe="/veggie-pasta" />}
             />

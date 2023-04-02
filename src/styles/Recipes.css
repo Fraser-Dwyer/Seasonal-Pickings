@@ -8,6 +8,44 @@
 }
 
 .recipeContainer{
-    width: 1000px;
+    width: 900px;
+    max-width: 900px;
     display: flex;
+    overflow-x: auto;
+    overflow-y: hidden;
+    margin-left: 50px;
+}
+
+.end{
+    color: transparent;
+}
+
+.next_button{
+    z-index: 999;
+    position: absolute;
+    width: 50px;
+    top:290px;
+    left:950px;
+}
+
+.next_button:hover{
+    width: 54px;
+    top: 288px;
+    left: 948px;
+    cursor: pointer;
+}
+
+.prev_button{
+    z-index: 999;
+    position: absolute;
+    width: 50px;
+    top:290px;
+    left:0px;
+}
+
+.prev_button:hover{
+    width: 54px;
+    top: 288px;
+    left: -2px;
+    cursor: pointer;
 }

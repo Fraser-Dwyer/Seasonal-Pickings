@@ -87,6 +87,13 @@ li{
     margin-left: 25px;
 }
 
+.method_steps{
+    height: 380px;
+    max-height: 380px;
+    overflow: auto;
+    padding: 10px;
+}
+
 .method_steps li{
     color: black;
     display:list-item;
