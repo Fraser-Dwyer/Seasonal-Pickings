@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import "../styles/WriteReview.css";
+import useFetch from "./useFetch";
 
 import { useRef } from "react";
 
@@ -11,13 +12,43 @@ const WriteReview = () => {
   };
 
   const [title, setTitle] = useState("");
+  const [body, setBody] = useState("");
+  const [rating, setRating] = useState("");
   const [recipePicked, setRecipePicked] = useState();
-  const recipeInputRef = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Submit form now");
+    console.log(title);
+    console.log(body);
+    console.log(rating);
+    console.log(recipePicked);
+    const id = allReviews.length;
+    const newReview = {
+      id,
+      dish: recipePicked,
+      rating: rating,
+      title: title,
+      main_body: body,
+    };
+    fetch("http://localhost:8000/reviews", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(newReview),
+    }).then(() => {
+      console.log("Review Posted");
+      const goTo = "/review-page" + recipePicked;
+      navigate(goTo);
+    });
   };
+  function handleChange(event) {
+    setRecipePicked(event.target.value);
+  }
+
+  const {
+    content: allReviews,
+    isLoading,
+    error,
+  } = useFetch("http://localhost:8000/reviews");
 
   return (
     <div>
@@ -44,11 +75,13 @@ const WriteReview = () => {
           <div className="review_title">
             <h2>Select Recipe:</h2>
             <label htmlFor="dropdownRecipes"></label>
-            <select value={recipePicked}>
-              <option value="A">Vegetable Soup</option>
-              <option value="B">Lentil Soup</option>
-              <option value="C">Veggie Pasta</option>
-              <option value="D">Spinach Lemon Risotto</option>
+            <select value={recipePicked} onChange={handleChange}>
+              <option value="/vegetable-soup">Vegetable Soup</option>
+              <option value="/lentil-salad">Lentil Salad</option>
+              <option value="/veggie-pasta">Veggie Pasta</option>
+              <option value="/spinach-lemon-risotto">
+                Spinach Lemon Risotto
+              </option>
             </select>
           </div>
 
@@ -59,8 +92,8 @@ const WriteReview = () => {
               type="text"
               title="Review body"
               required
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
+              value={body}
+              onChange={(e) => setBody(e.target.value)}
             />
           </div>
 
@@ -71,13 +104,13 @@ const WriteReview = () => {
               type="text"
               title="Rating"
               required
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
+              value={rating}
+              onChange={(e) => setRating(e.target.value)}
             />
           </div>
 
           <div className="submit">
-            <button>Submit</button>
+            <button onClick={handleSubmit}>Submit</button>
           </div>
         </form>
       </div>
