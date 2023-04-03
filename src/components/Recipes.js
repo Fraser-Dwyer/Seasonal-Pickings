@@ -8,14 +8,11 @@ const Recipes = () => {
   const navigate = useNavigate();
   let ref1 = useRef();
   let ref2 = useRef();
+  const go_for =
+    "https://my-json-server.typicode.com/Fraser-Dwyer/seasonal-pickings-backend/recipes";
+  console.log(go_for);
 
-  const {
-    content: allRecipes,
-    isLoading,
-    error,
-  } = useFetch(
-    "https://my-json-server.typicode.com/Fraser-Dwyer/seasonal-pickings-backend/recipes"
-  );
+  const { content: allRecipes, isLoading, error } = useFetch(go_for);
 
   const handleClick = (url_suffix) => {
     const url = "/recipes" + url_suffix;
