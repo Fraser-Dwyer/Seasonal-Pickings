@@ -3,8 +3,6 @@ import { useState } from "react";
 import "../styles/WriteReview.css";
 import useFetch from "./useFetch";
 
-import { useRef } from "react";
-
 const WriteReview = () => {
   const navigate = useNavigate();
   const backButton = () => {
