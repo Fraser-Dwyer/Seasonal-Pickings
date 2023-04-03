@@ -14,7 +14,7 @@ const Recipes = () => {
     isLoading,
     error,
   } = useFetch(
-    "https://github.com/Fraser-Dwyer/seasonal-pickings-backend/blob/[main|master]/db.json/recipes"
+    "https://my-json-server.typicode.com/Fraser-Dwyer/seasonal-pickings-backend/recipes"
   );
 
   const handleClick = (url_suffix) => {
