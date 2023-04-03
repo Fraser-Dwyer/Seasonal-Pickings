@@ -7,7 +7,9 @@ const useFetch = (endPoint) => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch(endPoint)
+    fetch(endPoint, {
+      mode: "no-cors",
+    })
       .then((res) => {
         if (!res.ok) {
           throw Error("Could not fetch data from that resource");
