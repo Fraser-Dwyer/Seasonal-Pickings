@@ -2,7 +2,7 @@
   "name": "hackathon-project",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://helen2000.github.io",
+  "homepage": "http://Fraser-Dwyer.github.io/hackathon-project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -18,9 +18,11 @@
     "dev": "react-scripts start",
     "start": "serve -s build",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "server": "npx json-server --watch public/data/db.json --port=3001"
   },
   "eslintConfig": {
     "extends": [
