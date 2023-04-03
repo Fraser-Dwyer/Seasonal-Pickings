@@ -6,12 +6,12 @@
 
 This is a screenshot from our web-application showing a selection of seasonal recipes which can be sourced locally. The web-app also can show you the steps and a full list of ingredients to make a selection of seasonal recipes. These recipes can also be reviewed on the web-app and you can see other peoples' ratings and reviews of dishes that you are wanting to try!
 
-<img src="Screenshot 2023-04-02 112510.png" width="600"/>
+<img src="/public/images/Screenshot 2023-04-02 112510.png" width="600"/>
 
 
 This screenshot shows the game, aimed towards educating children about locally sourcing healthy and declicious foods, being played in our web-app. The aim of the game is to explore the local area, venturing to different farms and markets to source the ingredients for a recipe of your choosing!
 
-<img src="Screenshot 2023-04-02 112628.png" width="600"/>
+<img src="/public/images/Screenshot 2023-04-02 112628.png" width="600"/>
 
 
 ## How to run
