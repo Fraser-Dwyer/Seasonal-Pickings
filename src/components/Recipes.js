@@ -13,7 +13,9 @@ const Recipes = () => {
     content: allRecipes,
     isLoading,
     error,
-  } = useFetch("http://localhost:8000/recipes");
+  } = useFetch(
+    "https://github.com/Fraser-Dwyer/seasonal-pickings-backend/blob/[main|master]/db.json/recipes"
+  );
 
   const handleClick = (url_suffix) => {
     const url = "/recipes" + url_suffix;
